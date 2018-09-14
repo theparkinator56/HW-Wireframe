@@ -3,8 +3,8 @@
     padding: 30px;
     margin-right:7%;
     margin-left:7%;
-    margin-top:0.1%;
-    margin-bottom:0.1%;
+    margin-top:0.5%;
+    margin-bottom:0.5%;
     text-align: center;
     background-color: white;
     color:grey
@@ -20,7 +20,9 @@ body {
     width: 22%;
     height: 50%;
     border: 10%;
-    padding: 10%;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-right:1%;
     margin-left:7%;
     margin-top:1%;
@@ -35,26 +37,28 @@ body {
     width: 22%;
     height: 50%;
     border: 10%;
-    padding: 10%;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-right:7%;
     margin-left:1%;
     margin-top:1%;
     margin-bottom:0px;
     text-align: center;
     background-color: white;
-    color:grey
+    color: grey;
 }
 .article {
     position: absolute;
-    left: 5%;
-    right: 5%;
+    left: 250px;
     bottom: 5%;
-    top: 10%;
+    top: 100px;
+    right: 100px;
+    width: 10%;
     height: 1%;
-    border: 8%;
-    padding-bottom: 20%;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-bottom: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
     text-align: center;
     background-color: grey;
     color: white
@@ -63,17 +67,49 @@ body {
 
 .inside {
     position: absolute;
-    left: 10%;
-    right: 55%;
+    left: 260px;
+    right: 200px;
+    top: 200px;
 
     text-align: center;
     color: grey;
     background-color: white;
 
-    padding: 10px
+    padding: 20px;
+    width: 500px;
 
 }
 
 .idk {
     position: relative
+}
+
+.inside2 {
+    position: absolute;
+    left: 260px;
+    right: 200px;
+    top: 300px;
+
+    text-align: center;
+    color: grey;
+    background-color: white;
+
+    padding: 20px;
+    width: 500px;
+
+}
+
+.bottom {
+    padding: 30px;
+    width: 82.2%;
+    margin-right:7%;
+    margin-left:7%;
+    margin-top:.5%;
+    margin-bottom:.5%;
+    text-align: center;
+    background-color: white;
+    color:grey;
+
+    position: absolute;
+    top: 65%;
 }
